@@ -1,0 +1,9 @@
+fonts/
+.cache/
+.idea/
+dist/
+jsPreview/
+maket/
+node_modules/
+package.json
+yarn.lock
