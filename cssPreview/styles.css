@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
-
+    font-family: 'Inter', sans-serif;
 }
 
 @font-face {
@@ -13,27 +13,18 @@
     url('https://nomail.com.ua/files/woff2/c1dcc669f9c3bfee56ddacf5ba0c4225.woff2') format('woff2');
 }
 
-@font-face {
-    font-family: 'Novecento-WideBold';
-    src: local('Novecento-WideBold'), url('https://nomail.com.ua/files/woff/c1dcc669f9c3bfee56ddacf5ba0c4225.woff') format('woff');
-}
-
 .main {
     display: flex;
     margin: 0 auto;
-    background: url("../imgPreview/about/background/01.png") 0 0/100% no-repeat;
-
-
+    background: url(../imgPreview/about/background/01.png) 0 0/100% no-repeat;
 }
-
 .container {
     margin: 0 auto;
     width: 1200px;
     max-width: 100%;
     display: block;
     margin-top: 30px;
-    margin-bottom: 150px
-
+    margin-bottom: 150px;
 }
 
 .header {
@@ -42,7 +33,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-
 }
 
 .logo {
@@ -50,25 +40,23 @@
     font-family: 'Pacifico', cursive;
     font-weight: normal;
     color: white;
-
 }
 
 .links {
     display: flex;
     justify-content: space-between;
     width: 150px;
-
 }
 
 .twitter, .facebook, .rss {
     display: flex;
+    justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.5);
-    overflow: hidden;
     height: 43px;
-    width: 30px;
+    width: 43px;
     border-radius: 50%;
-    padding-left: 12%;
+    cursor: pointer;
 }
 
 .menu {
@@ -80,12 +68,16 @@
 .menu-link {
     display: flex;
     justify-content: space-between;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     color: white;
     text-transform: uppercase;
     width: 80%;
 
+}
+
+.search {
+    cursor: pointer;
 }
 
 .colortext {
@@ -96,13 +88,10 @@
     color: white;
     text-decoration: none;
     font-weight: bold;
-
 }
 
 .title {
     margin: 0 auto;
-    margin-top: 30px;
-
 }
 
 .title__main.maintext {
@@ -112,12 +101,11 @@
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 120px;
+    margin-top: 8%;
     text-align: center;
 }
 
 .title__text.text {
-    font-family: 'Inter', sans-serif;;
     font-size: 22px;
     color: white;
     margin-top: 20px;
@@ -127,7 +115,6 @@
 
 .title__button.button {
     margin: 0 auto;
-    font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: white;
     background: none;
@@ -139,14 +126,8 @@
     font-weight: bold;
     display: flex;
     justify-content: center;
-
-
+    cursor: pointer;
 }
-
-/*second
-
- */
-
 
 .medium {
     margin: 0 auto;
@@ -159,7 +140,6 @@
     margin: 0 auto;
     width: 1200px;
     max-width: 100%;
-
 }
 
 .service {
@@ -168,20 +148,16 @@
 }
 
 .service-title {
-
     color: #666262;
-    font-family: 'Inter', sans-serif;
     font-size: 27px;
     display: flex;
     justify-content: center;
     text-transform: uppercase;
     font-weight: bold;
-
 }
 
 .service-subtitle {
     color: #9b9999;
-    font-family: 'Inter', sans-serif;
     font-size: 15px;
     margin: 0 auto;
     text-align: center;
@@ -189,28 +165,18 @@
     display: block;
     margin-top: 20px;
     margin-bottom: 40px;
-
 }
-
 
 .example {
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
-
-}
-
-.example-one, .example-two, .example-three {
-
-
 }
 
 .example__image.image {
-
     display: flex;
     justify-content: center;
     margin-top: 50px;
-
 }
 
 .example__title.title {
@@ -218,12 +184,9 @@
     justify-content: center;
     margin-top: 20px;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
     color: #706c6c;
     text-transform: uppercase;
     font-weight: bold;
-
-
 }
 
 .example__subtitle.subtitle {
@@ -232,7 +195,6 @@
     margin-top: 28px;
     text-align: center;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
     color: #b5b4b4;
     text-transform: none;
 }
@@ -241,22 +203,16 @@
     display: flex;
     justify-content: center;
     margin-top: 32px;
-    font-family: 'Inter', sans-serif;
     color: #87b672;
-
     text-transform: none;
 
-
 }
-
 .latest {
     margin: 0 auto;
-
     background: linear-gradient(to bottom, #efefef 75%, white 25%);
 }
 
 .container-latest {
-
     margin: 0 auto;
     border-bottom: 1.5px solid rgba(155, 153, 153, 1);
     padding-top: 30px;
@@ -266,14 +222,12 @@
     margin-bottom: 30px;
     margin-top: 70px;
 
-
 }
 
 .title-latest {
     text-align: center;
     margin-top: 70px;
     font-size: 25px;
-    font-family: 'Inter', sans-serif;
     color: #706c6c;
     text-transform: uppercase;
     display: block;
@@ -287,35 +241,29 @@
     margin-right: 172px;
     margin-top: 28px;
     font-size: 16px;
-    font-family: 'Inter', sans-serif;
     color: #b5b4b4;
     text-transform: none;
-
-
 }
 
 .screen {
-
     margin-top: 52px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+}
 
-
+.screen__item {
+    width: 33%;
 }
 
 .about-screen {
-
     display: flex;
     justify-content: space-around;
-
-
 }
 
 .about-screen__one, .about-screen__two, .about-screen__three {
     text-align: center;
     font-size: 18px;
-    font-family: 'Inter', sans-serif;
     color: #706c6c;
     text-transform: uppercase;
     width: 50%;
@@ -344,7 +292,6 @@
 }
 
 .purchase__title.text {
-    font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 20px;
     color: #706c6c;
@@ -357,7 +304,6 @@
 
 .purchase__subtitle.text {
     text-align: center;
-    font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: #b5b4b4;
     margin: 0 auto;
@@ -371,7 +317,6 @@
 
 .purchase__button.button {
     display: block;
-    font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: white;
     background: #87b672;
@@ -381,7 +326,7 @@
     margin-top: 29px;
     text-transform: uppercase;
     font-weight: bold;
-
+    cursor: pointer;
 }
 
 .information {
@@ -422,14 +367,11 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #808080;
-    font-family: 'Inter', sans-serif;
-
 }
 
 .contacts {
     text-transform: uppercase;
     font-weight: bold;
-    font-family: 'Inter', sans-serif;
     text-decoration: none;
 
 }
